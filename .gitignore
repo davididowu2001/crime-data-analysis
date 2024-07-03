@@ -1,0 +1,19 @@
+# Ignore MLflow files and directories
+mlruns/
+*.mlflow/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment directories
+env/
+venv/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore other temporary files
+*.log
+*.tmp
