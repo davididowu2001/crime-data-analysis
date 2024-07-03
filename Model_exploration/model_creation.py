@@ -40,6 +40,7 @@ def main():
     # label encoding
     le = LabelEncoder()
     train_data['Crm Cd'] = le.fit_transform(train_data['Crm Cd'])
+    test_data['Crm Cd'] = le.transform(test_data['Crm Cd'])
     print("data split")
 
     # Define pipeline
@@ -64,8 +65,13 @@ def main():
 
         #log metrics
         accuracy = accuracy_score(test_data['Crm Cd'], predictions)
+        print(test_data)
+        print("accuracy: ", accuracy)
+
         mlflow.log_metric("accuracy", accuracy)
 
+        mlflow.set_tag("model", "RandomForestClassifier to predict crime code from description")
+        
         #log model
         mlflow.sklearn.log_model(pipeline, 'Random_Classifier_model')
         print("Model saved in run %s" % mlflow.active_run().info.run_uuid)
