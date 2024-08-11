@@ -1,0 +1,11 @@
+stages:
+  - test
+  
+
+# Test stage: run unit tests
+test:
+  stage: test
+  image: python:3.9
+ 
+  script:
+    - pytest
