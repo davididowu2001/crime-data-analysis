@@ -12,7 +12,7 @@ import pickle as pkl
 
 # Load the data
 def load_data():
-    data = pd.read_csv("c:/Users/idowu/Desktop/Machine Learning/crime_ML/crime-analysis/Crime_Data_from_2020_to_Present.csv")
+    data = pd.read_csv("Crime_Data_from_2020_to_Present.csv")
     return data
 
 def clean_data(data):

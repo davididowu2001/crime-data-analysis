@@ -6,6 +6,5 @@ mlflow
 scikit-learn
 pycaret
 xgboost
-lightgbm
 sys
 os
