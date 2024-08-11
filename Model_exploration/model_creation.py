@@ -58,11 +58,12 @@ def main():
         #add predictions to test data with inverse transform
         test_data['predictions'] = le.inverse_transform(predictions)
 
+
         #log parameters
         mlflow.log_param("n_estimators", 100)
         mlflow.log_param("random_state", 42)
         print("parameters logged")
-
+ 
         #log metrics
         accuracy = accuracy_score(test_data['Crm Cd'], predictions)
         print(test_data)
