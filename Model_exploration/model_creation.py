@@ -8,6 +8,7 @@ import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.preprocessing import LabelEncoder
 from sklearn.pipeline import Pipeline
+import pickle as pkl
 
 # Load the data
 def load_data():
@@ -77,5 +78,9 @@ def main():
         mlflow.sklearn.log_model(pipeline, 'Random_Classifier_model')
         print("Model saved in run %s" % mlflow.active_run().info.run_uuid)
 
+        #save model
+        pkl.dump(pipeline, open("Random_classifer_model.pkl", "wb"))
+
+        print("model saved")
 if __name__ == "__main__":
     main()
