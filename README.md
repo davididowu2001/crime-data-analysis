@@ -1,5 +1,38 @@
-# Crime analysis
 
+## Crime Classification using Crime Description
+
+### Description
+The Crime Classification using Crime Description project aims to predict the crime code associated with crime descriptions and tags. By utilizing machine learning models, this project provides a quick and efficient way to search for the section under which a crime falls. The data used for training the models is sourced from US crime records from 2020 to 2022.
+
+### Badges
+Consider adding badges to convey metadata about your project, such as build status, code coverage, or license information. Shields.io is a popular service for creating badges.
+
+### Visuals
+Including screenshots or GIFs can enhance the understanding of your project. Consider using tools like ttygif or Asciinema to create visual representations.
+
+### Installation
+Provide clear instructions on how to install your project, including any dependencies or specific requirements. Consider including steps for different ecosystems or operating systems.
+
+### Usage
+Demonstrate the usage of your project with examples and expected outputs. Include links to more sophisticated examples if necessary.
+
+### Support
+Inform users where they can seek help or support for your project. This can include an issue tracker, chat room, email address, or any other relevant communication channels.
+
+### Roadmap
+If you have plans for future releases or features, outline them in this section to give users an idea of what to expect.
+
+### Contributing
+Specify whether you are open to contributions and provide guidelines for contributors. Include instructions for setting up the development environment and any code quality standards.
+
+### Authors and Acknowledgment
+Show appreciation to individuals or organizations that have contributed to your project. This can be done by mentioning their names or linking to their profiles.
+
+### License
+Specify the license under which your project is released. This is important for open-source projects.
+
+### Project Status
+If the development of your project has slowed down or stopped, mention it at the top of the README. This can help potential contributors or maintainers understand the current state of the project.
 
 
 ## Getting started
