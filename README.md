@@ -4,12 +4,6 @@
 ### Description
 The Crime Classification using Crime Description project aims to predict the crime code associated with crime descriptions and tags. By utilizing machine learning models, this project provides a quick and efficient way to search for the section under which a crime falls. The data used for training the models is sourced from US crime records from 2020 to 2022.
 
-### Badges
-Consider adding badges to convey metadata about your project, such as build status, code coverage, or license information. Shields.io is a popular service for creating badges.
-
-### Visuals
-Including screenshots or GIFs can enhance the understanding of your project. Consider using tools like ttygif or Asciinema to create visual representations.
-
 ### Installation
 Provide clear instructions on how to install your project, including any dependencies or specific requirements. Consider including steps for different ecosystems or operating systems.
 
