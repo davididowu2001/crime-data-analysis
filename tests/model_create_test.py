@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 
-from Model_exploration.model_creation import load_data, clean_data, split_data, main
+from model_exploration.model_creation import load_data, clean_data, split_data, main
 
 
 def test_load_data():    
